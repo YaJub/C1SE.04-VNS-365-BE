@@ -18,14 +18,14 @@ module.exports = {
         port: 465,
         secure: true,
         auth: {
-          user: "phamhuusang24@gmail.com", // Your email address
-          pass: "iopz ltxx jsty mgkl", // Password (for gmail, your app password)
+          user: "tranvanhieu2272002@gmail.com", // Your email address
+          pass: "abc", // Password (for gmail, your app password)
         },
       });
 
       await transporter.sendMail({
-        from: "phamhuusang24@gmail.com",
-        to: "phamhuusang24@gmail.com",
+        from: "tranvanhieu2272002@gmail.com",
+        to: "tranvanhieu2272002@gmail.com",
         subject: "Healthy Tracker Contact",
         html: `
     <p>Email ${req.body.email}</p>
